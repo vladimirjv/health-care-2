@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/health-care-2/static/css/main.a0f223bd.css",
+    "main.js": "/health-care-2/static/js/main.b0184338.js",
+    "static/js/787.4ab0fa39.chunk.js": "/health-care-2/static/js/787.4ab0fa39.chunk.js",
+    "static/media/heart.svg": "/health-care-2/static/media/heart.80374f43881ee6fe1212583b848dbbf0.svg",
+    "static/media/covid.png": "/health-care-2/static/media/covid.48a03790bd65df648019.png",
+    "static/media/brain.svg": "/health-care-2/static/media/brain.cd8b6e374cbbd427c273345737e0de59.svg",
+    "static/media/eye.svg": "/health-care-2/static/media/eye.16fc0317a4eeb36c0de5e668cd83a006.svg",
+    "index.html": "/health-care-2/index.html",
+    "main.a0f223bd.css.map": "/health-care-2/static/css/main.a0f223bd.css.map",
+    "main.b0184338.js.map": "/health-care-2/static/js/main.b0184338.js.map",
+    "787.4ab0fa39.chunk.js.map": "/health-care-2/static/js/787.4ab0fa39.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a0f223bd.css",
+    "static/js/main.b0184338.js"
+  ]
+}
