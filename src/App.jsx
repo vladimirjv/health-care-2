@@ -1,16 +1,14 @@
-import Home from './views/Home';
+// import Home from './routes/Home';
 import "./App.css";
-import { useState } from 'react';
+import { Outlet } from 'react-router-dom';
 
 function App() {
-  const [user] = useState({ name: 'Vladimir Juarez', avatar: '' });
-
   return (
     <div
       id="appWrapper"
       className="flex justify-center bg-primary w-screen h-screen text-white"
     >
-      <Home user={user} />
+      <Outlet />
     </div>
   );
 }

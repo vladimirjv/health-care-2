@@ -8,6 +8,11 @@ const IMAGES = {
   BRAIN,
   EYE,
 };
+// const images = {
+//   HEART: '/assets/svg/heart.svg',
+//   BRAIN: '/assets/svg/brain.svg',
+//   EYE: '/assets/svg/eye.svg',
+// }
 
 function SpecialityCard({ speciality, image, disponibility }) {
   return (
@@ -15,6 +20,10 @@ function SpecialityCard({ speciality, image, disponibility }) {
       <div className="flex w-40">
         <div className="grid mr-5 rounded-md content-center p-2 bg-accent">
           <img src={IMAGES[image]} alt="logo" className="w-6 h-6" />
+          {/* <object type="image/svg+xml" height="10" width="10" data={images[image]}> </object> */}
+          {/* <svg className="w-6 h-6" role="img" aria-label="Covid Mask">
+            <use xlink:href={images[image]} href={images[image]}></use>
+          </svg> */}
         </div>
         <div className="grid grid-cols-1 content-center">
           <p className="font-bold">{speciality}</p>
